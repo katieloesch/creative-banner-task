@@ -5,18 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Create Banner Task</title>
         <link href="style.css" rel="stylesheet">
-        <script type="module" defer src="js/main.js"></script>
+        <!-- GSAP from CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+        <script type="module" defer src="./main.js"></script>
     </head>
 
     <body>
         <div class="banner">
             <div class="banner-top">
-                <img id="mini-alexa" src="./assets/mini-alexa@2x.png">
+
+
+                <img id="slide-img" src="./assets/mini-alexa@2x.png">
                 <img id="logo" src="./assets/logo.png">
+                
             </div>
 
             <div class="banner-bottom">
-                <div id="collection">The Micro Bag Collection</div>
+                <div id="slide-text">The Micro Bag Collection</div>
                 <div id="arrows">
                     <img id="arrow-left" src="./assets/arrow.png"/>
                     <img id="arrow-right" src="./assets/arrow.png"/>
